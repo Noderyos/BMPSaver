@@ -1,6 +1,8 @@
 # BMPSaver
 A simple Cpp wrapper to save images as bitmap
 
+(it's just a simple function, so you can simply copy my function)
+
 Usage : 
 ```cpp
 #include "bmpsaver.h"
