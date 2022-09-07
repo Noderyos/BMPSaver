@@ -11,7 +11,7 @@ Usage :
 #define W 127
 
 int main() {
-    std::vector<unsigned char> v(W*3*H);
+    std::vector<unsigned char> v(W*3*W);
     for (int i = 0; i < W; ++i) {
         for (int j = 0; j < W; ++j) {
             unsigned char gb = i+j;
@@ -20,7 +20,7 @@ int main() {
             v[(i*W+j)*3+2] = gb;
         }
     }
-    save_img("test.bmp",&v[0],W,H);
+    save_img("test.bmp",&v[0],W,W);
     return 0;
 }
 ```
